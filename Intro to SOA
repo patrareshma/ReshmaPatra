@@ -1,0 +1,46 @@
+I wont go much into the technical aspects in this post, but will give you an idea on what SOA is all about.
+
+What is SOA...
+
+Is it a platform? Is it an Architecture? Is it a Pattern? Is it a product or a Solution?
+
+SOA is basically an Architectural style of building business applications,
+and by Business applications, I mean what makes sense to business.
+
+And we normally hear SOA is all about Webservices...And its not true.
+
+SOA is an architectural style, may be realized by WebServices, but SOA is not just about WebServices.
+WebService is all about exposing the implementation in a standard way, whereas SOA is concerned about Integration.
+
+It is neither a software, nor a product, but an approach to build business applications in an Enterprise, that offer agility. It basically aligns your IT infrastructure towards the changing trends in the business.
+
+Let us look at a simple scenario.
+
+Lets say, there is a company that had its IT infrastructure first developed in late 80's, and was completely running on Mainframe.
+And in late 90's, business grew up in many new areas, and the business wanted their IT infrastructure to support all those. At this point, IT dept had many alternatives to Mainframe, and lets assume have leveraged those new technologies to provide new solutions. But as these new ones belong to the same old enterprise, they need an integration to the existing ones. But since they are of different technologies, they follow different protocols, and so the communication cannot happen directly, they need some sort of a layer in between that acts as a translator. And so, the IT department had to write the intercommunication layers to talk to the legacy code.
+Everything went on well till a point when the competition in business grew up too much and is constantly increasing at a huge pace, s/w components in various technologies keep coming in to the enterprise, and the IT department suddenly realized the existing practice would not suffice their needs. This ultimately leads to a Business-IT Gap.
+
+Adding to this, it had become even more difficult to integrate their existing systems with the new ones coming in as part of new acquisitions &mergers.
+This created a real headache to integrate their existing system with a new ones coming as part of the acquisitions, which is(might have been) completely written in their native framework, which did not support extensibility at all!!!
+All those cross-technology interactions had become too much to the IT department, both to develop as well as to maintain.
+
+What's the solution??
+SOA.
+
+Using SOA at core architecture of your IT, it would cater to such fast changing business needs, integrations between various technologies, and at the same time, with a greater ROI to the company in long run.
+
+SOA is like a set of standards that have to be followed while building business applications, which enable applications to be easily extendable, flexible, and makes the overall application cost-effective.
+
+SOA aims at a greater alignment between your business and IT infrastructure
+It is aimed at businesses which change quite rapidly, and always want their IT infrastructure to align with them in the same rapid pace.
+
+ SOA can help businesses respond more quickly and more cost-effectively to changing market conditions, govt regulations, customer tastes, technology changes, etc. This style of architecture promotes reuse at the macro level rather than micro level. By macro, I mean at a service level rather than at a class level. It can also simplify interconnection to – and usage of – existing IT (legacy) assets.
+
+SOA proposes certain concepts which you need to incorporate in your IT so that it becomes a 100% SOA based application and cater all needs to the business, both in terms of technology and revenue.
+
+SOA is basically an architectural style of building business applications, using loosely coupled services which act like black boxes, and can be orchestrated to achieve a specific functionality.
+Please note that SOA involves huge investments to the company both in terms of the development and infrastructure.
+Having SOA implemented in the enterprise is a trade-off between the
+cost incurred(that would incur in its realization) versus the advantage(ROI) to the company
+
+Hope this post gave you a basic understanding on Service Oriented Architecture. Please go through the next posts for a more detailed view on SOA.
