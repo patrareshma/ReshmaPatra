@@ -1,0 +1,5 @@
+Mule MUnit testing with variables and properties
+Published by Manik Magar on 30 May 2016 under MUnit
+
+Flow Variables, Session Variables, Inbound/Outbound properties are very common in mule flows. Mule MUnit framework makes it very easy to unit test any Mule Flow and subflows. In this post, we will see how we can unit test our flows involving variables and properties.
+Let’s consider a simple mule flow that reads a file and then sets a flow variable and session variable.
