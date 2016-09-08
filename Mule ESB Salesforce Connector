@@ -1,0 +1,17 @@
+Mule ESB Salesforce Connector
+
+The Salesforce Mule connector establishes connection to Salesforce system using SOAP web service (provided by Salesforce). 
+Almost every operation that can be done via the Salesforce’s API can be done thru this connector. 
+This connector will also work if your Salesforce objects are customized with additional fields or even you are working with custom objects. 
+The Connector supports the option to configure Salesforce connection details, connection pooling and max limit of active connections.
+The Salesforce Streaming API is a simple way to push relevant data to your users in real-time, 
+instead of having to refresh the screen to get new information. 
+This allows a user to get information without having to perform any action to retrieve it, essentially pushing new data to the screen. 
+The Streaming API uses a publisher subscriber (pub/sub) model to push data to the client.
+The first thing a developer must do is set up a PushTopic in Salesforce. 
+This is basically a query that watches for changes in values of certain fields in a Salesforce Object. 
+Then the client can subscribe to that PushTopic and receive updates whenever a change is made to the specified fields. 
+This is done using a push protocol called the Bayeux protocol. 
+The Salesforce implementation uses long polling connections to the server that will be able to notify the client on changes. 
+This differs from traditional polling in that it keeps an incoming request open until an event is fired and then sends the response. 
+Here’s how this works. An http request is made to the server. Instead of responding immediately, the server keeps the request and waits for a specific event to fire, in our case a change in one of the fields of our PushTopic object. When the event is fired a response is made. Then the client makes another request to the server which it keeps open and waits. 
